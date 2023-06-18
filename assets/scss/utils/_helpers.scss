@@ -1,0 +1,59 @@
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.fs-1 {
+  font-size: $base * 4;
+}
+
+.fs-2 {
+  font-size: $base * 1.5;
+}
+
+.fs-3 {
+  font-size: $base * 1.25;
+}
+
+@each $key, $value in $spaces {
+  .pt-#{$key} {
+    padding-top: $value;
+  }
+  .pb-#{$key} {
+    padding-bottom: $value;
+  }
+  .ps-#{$key} {
+    padding-left: $value;
+  }
+  .pe-#{$key} {
+    padding-right: $value;
+  }
+  .px-#{$key} {
+    padding-right: $value;
+    padding-left: $value;
+  }
+  .py-#{$key} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+  .mt-#{$key} {
+    margin-top: $value;
+  }
+  .mb-#{$key} {
+    margin-bottom: $value;
+  }
+  .ms-#{$key} {
+    margin-left: $value;
+  }
+  .me-#{$key} {
+    margin-right: $value;
+  }
+  .mx-#{$key} {
+    margin-right: $value;
+    margin-left: $value;
+  }
+  .my-#{$key} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+}

@@ -1,0 +1,32 @@
+.btn {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+}
+
+.btn-light {
+  background: $light;
+  border: solid 2px transparent;
+  color: $dark;
+  &:hover {
+    background: $dark;
+    border: solid 2px $light;
+    color: $light;
+  }
+  span {
+    margin-left: 4px;
+  }
+}
+
+.btn-dark {
+  background: $dark;
+  border: solid 2px transparent;
+  color: $light;
+  &:hover {
+    background: $light;
+    border: solid 2px $dark;
+    color: $dark;
+  }
+}

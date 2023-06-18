@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.fs-1 {
+  font-size: 4rem;
+}
+
+.fs-2 {
+  font-size: 1.5rem;
+}
+
+.fs-3 {
+  font-size: 1.25rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.ps-1 {
+  padding-left: 0.25rem;
+}
+
+.pe-1 {
+  padding-right: 0.25rem;
+}
+
+.px-1 {
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.ms-1 {
+  margin-left: 0.25rem;
+}
+
+.me-1 {
+  margin-right: 0.25rem;
+}
+
+.mx-1 {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.pt-2 {
+  padding-top: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 1rem;
+}
+
+.ps-2 {
+  padding-left: 1rem;
+}
+
+.pe-2 {
+  padding-right: 1rem;
+}
+
+.px-2 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.py-2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.ms-2 {
+  margin-left: 1rem;
+}
+
+.me-2 {
+  margin-right: 1rem;
+}
+
+.mx-2 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pt-3 {
+  padding-top: 1.25rem;
+}
+
+.pb-3 {
+  padding-bottom: 1.25rem;
+}
+
+.ps-3 {
+  padding-left: 1.25rem;
+}
+
+.pe-3 {
+  padding-right: 1.25rem;
+}
+
+.px-3 {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.py-3 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.mt-3 {
+  margin-top: 1.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.25rem;
+}
+
+.ms-3 {
+  margin-left: 1.25rem;
+}
+
+.me-3 {
+  margin-right: 1.25rem;
+}
+
+.mx-3 {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.my-3 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.pt-4 {
+  padding-top: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1.5rem;
+}
+
+.ps-4 {
+  padding-left: 1.5rem;
+}
+
+.pe-4 {
+  padding-right: 1.5rem;
+}
+
+.px-4 {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.ms-4 {
+  margin-left: 1.5rem;
+}
+
+.me-4 {
+  margin-right: 1.5rem;
+}
+
+.mx-4 {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.pt-5 {
+  padding-top: 2rem;
+}
+
+.pb-5 {
+  padding-bottom: 2rem;
+}
+
+.ps-5 {
+  padding-left: 2rem;
+}
+
+.pe-5 {
+  padding-right: 2rem;
+}
+
+.px-5 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.py-5 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.mt-5 {
+  margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+.ms-5 {
+  margin-left: 2rem;
+}
+
+.me-5 {
+  margin-right: 2rem;
+}
+
+.mx-5 {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.my-5 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pt-6 {
+  padding-top: 2.25rem;
+}
+
+.pb-6 {
+  padding-bottom: 2.25rem;
+}
+
+.ps-6 {
+  padding-left: 2.25rem;
+}
+
+.pe-6 {
+  padding-right: 2.25rem;
+}
+
+.px-6 {
+  padding-right: 2.25rem;
+  padding-left: 2.25rem;
+}
+
+.py-6 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.mt-6 {
+  margin-top: 2.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 2.25rem;
+}
+
+.ms-6 {
+  margin-left: 2.25rem;
+}
+
+.me-6 {
+  margin-right: 2.25rem;
+}
+
+.mx-6 {
+  margin-right: 2.25rem;
+  margin-left: 2.25rem;
+}
+
+.my-6 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.pt-7 {
+  padding-top: 10rem;
+}
+
+.pb-7 {
+  padding-bottom: 10rem;
+}
+
+.ps-7 {
+  padding-left: 10rem;
+}
+
+.pe-7 {
+  padding-right: 10rem;
+}
+
+.px-7 {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.py-7 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.mt-7 {
+  margin-top: 10rem;
+}
+
+.mb-7 {
+  margin-bottom: 10rem;
+}
+
+.ms-7 {
+  margin-left: 10rem;
+}
+
+.me-7 {
+  margin-right: 10rem;
+}
+
+.mx-7 {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.my-7 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80px;
+}
+
+.btn-light {
+  background: #fff;
+  border: solid 2px transparent;
+  color: #000;
+}
+.btn-light:hover {
+  background: #000;
+  border: solid 2px #fff;
+  color: #fff;
+}
+.btn-light span {
+  margin-left: 4px;
+}
+
+.btn-dark {
+  background: #000;
+  border: solid 2px transparent;
+  color: #fff;
+}
+.btn-dark:hover {
+  background: #fff;
+  border: solid 2px #000;
+  color: #000;
+}
+
+header {
+  background: #000;
+  color: #fff;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  padding-top: 40px;
+}
+header a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banner {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background: #000;
+  color: #fff;
+}
+.banner-wrapper {
+  display: flex;
+  align-items: center;
+}
+.banner-desc {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.banner-em {
+  padding-left: 72px;
+  font-size: 8rem;
+  color: #00ffa3;
+}
+
+.intro {
+  background: url(../img/background-img.png);
+  background-size: cover;
+  color: #fff;
+}
+.intro-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+.intro-desc {
+  width: 40.6%;
+}
+.intro-imgGroup {
+  display: flex;
+  width: 57.6%;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 49%;
+}
+.about-list-item {
+  padding: 16px;
+  width: 48%;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.02);
+}
+.about-desc {
+  width: 40.5%;
+}
+
+.contact {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  color: #fff;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contact-title {
+  display: flex;
+  align-items: center;
+}
+.contact-title img {
+  margin-left: 12px;
+}
+.contact-item-link:hover {
+  box-shadow: 0px 0px 16px 0px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
+}
+
+.project-title {
+  width: 57.5%;
+  margin-left: auto;
+}
+.project-wrapper {
+  display: flex;
+}
+.project-wrapper-inner {
+  width: 66%;
+}
+.project-area1 {
+  width: 32%;
+}
+.project-area2 {
+  display: flex;
+  margin-bottom: 28px;
+}
+.project-area3 {
+  display: flex;
+}
+.project-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}/*# sourceMappingURL=all.css.map */
